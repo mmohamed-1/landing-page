@@ -45,6 +45,7 @@ img {
   font-size: 18px;
 }
 
+/* hero section */
 #main {
   background-color: #1f2937;
   height: 400px;
@@ -86,6 +87,8 @@ img {
   margin: 20px;
 }
 
+/* features section */
+
 #features h1 {
   font: 36px;
   font-weight: 800;
@@ -97,16 +100,73 @@ img {
 
 .flex-features {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
+.box {
+  padding: 30px;
+}
 .box div {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 3px solid #3882f6;
   border-radius: 10px;
 }
 .box p {
   padding-top: 10px;
+  font-size: 17px;
+  color: #1f2937;
+}
+
+/* qoute section */
+
+#qoute {
+  height: 300px;
+  background-color: #e5e7eb;
+}
+blockquote {
+  padding: 40px;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.flex-qoute {
+  display: flex;
+  flex-direction: column;
+}
+#qoute p {
+  align-self: flex-end;
+  color: #1f2937;
+  font-weight: 800;
+}
+/* call to action */
+
+#action-call {
+  padding: 30px;
+}
+
+.call {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10px;
+  height: 150px;
+}
+.action {
+  font-size: 36px;
+  padding: 10px;
+}
+.btn-2 {
+  border: 2px solid #fff;
+}
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 90px;
+  color: #fff;
 }
