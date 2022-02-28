@@ -41,7 +41,7 @@ img {
 .navbar-links a {
   padding: 10px 16px;
   display: inline-block;
-  color: #fff;
+  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -65,8 +65,9 @@ img {
   color: #e5e7eb;
 }
 .side-right img {
-  width: 400px;
+  width: 450px;
   margin-left: 30px;
+  border-radius: 10px;
 }
 .hero {
   display: flex;
@@ -155,7 +156,6 @@ blockquote {
 }
 .action {
   font-size: 36px;
-  padding: 10px;
 }
 .btn-2 {
   border: 2px solid #fff;
